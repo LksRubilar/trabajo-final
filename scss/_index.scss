@@ -1,0 +1,32 @@
+@import "variables";
+
+.body-container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+  "index-main index-main index-main index-main"
+  "index-main index-main index-main index-main"
+  "index-main index-main index-main index-main"
+  "index-main index-main index-main index-main"
+  "index-section index-section index-section index-section"
+  "index-section index-section index-section index-section"
+  "index-section index-section index-section index-section"
+  "footer footer footer footer";
+}
+
+.index-main { 
+  grid-area: index-main; 
+  background-color: $negro;
+  background-image: url(../images/p4.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.index-section {
+  grid-area: index-section;
+  background: $blanco;
+}
+
+.footer { grid-area: footer; }

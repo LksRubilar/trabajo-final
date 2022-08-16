@@ -1,0 +1,65 @@
+/*CONFIGURACIONES GENERALES*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    margin: 40px;
+}
+
+/*GRIDS*/
+
+/*Colores*/
+$blanco: #ffffff;
+$negro: #000000;
+$blanco-subtitulo: #f4f4f4;
+$gris-texto: #777777;
+
+/*TEXTOS*/
+.texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 20px;
+    text-transform: none;
+    color: $blanco;
+}
+
+.titulo-h1 {
+    font-size: 98px;
+    font-weight: 700;
+    line-height: 104px;
+}
+
+.titulo-h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+
+.texto--black {
+    color: $negro;
+}
+
+.texto--gris {
+    color: $gris-texto;
+}
+
+.texto-a {
+    text-transform: uppercase;
+}
+
+.texto-p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-transform: none;
+}
